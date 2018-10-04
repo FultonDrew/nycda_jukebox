@@ -99,6 +99,7 @@ previous.addEventListener('click', function () {
   previousSong()
 })
 
+// adds functionality to load song & album art on load. Helps improve UX.
 window.addEventListener('load', function(){
 	playFunction();
 })
