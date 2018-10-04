@@ -1,0 +1,142 @@
+.player {
+	width: 40vw;
+	height: 60vh;
+	border: 2px solid;
+	margin: 40px auto;
+	padding: 30px;
+	border-radius: 20px;
+	background-color: lightgrey;
+	box-shadow: 5px 5px 1px 1px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.buttons {
+	/*border: 1px solid black;*/
+	position: relative;
+	width: 250px;
+	height: 200px;
+	margin: 90px auto;
+}
+
+#play {
+	height: 30px;
+	width: 30px;
+	/*border: 2px solid;*/
+	background-color: lightgrey;
+	background-position: center;
+	display: inline;
+	padding-top: 50px;
+	position: relative;
+	top: 40px;
+	left: 20px;
+
+}
+
+#pause {
+	height: 30px;
+	width: 30px;
+	/*border: 2px solid;*/
+	background-color: lightgrey;
+	background-position: center;
+	display: inline;
+	padding-top: 50px;
+	position: relative;
+	top: 40px;
+	left: 35px;
+}
+
+
+#next {
+	height: 30px;
+	width: 30px;
+	/*border: 2px solid;*/
+	background-color: lightgrey;
+	background-position: center;
+	display: inline;
+	padding-top: 50px;
+	position: relative;
+	top: 40px;
+	left: 50px;
+
+}
+
+#repeat {
+	height: 30px;
+	width: 30px;
+	/*border: 2px solid;*/
+	background-color: lightgrey;
+	background-position: center;
+	display: inline;
+	padding-top: 50px;
+	position: relative;
+	top: 40px;
+	left: 65px;
+}
+
+#previous {
+	height: 30vh;
+	width: 30vw;
+	/*border: 2px solid;*/
+	background-color: lightgrey;
+	background-position: center;
+	display: inline;
+	position: relative;
+	padding-top: 50px;
+	position: relative;
+	top: 40px;
+	left: 80px;
+}
+
+
+#albumArt {
+	border: 2px solid;
+	/*width: 300px;*/
+	height:  35vh;
+	width: 20vw;
+	position: relative;
+	margin: 10% auto;
+
+	justify-content: space-around;
+	background-size: 100% 100%;
+	border-radius: 10%;
+}
+
+#art {
+	position: absolute;
+	margin: 0 auto;
+	left: 100px;
+
+}
+
+#songTitle {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.25vw;
+	text-align: center;
+	/*background-color: #fbfbfb;
+	border: 2px solid;*/
+	color: white;
+	border-radius: 5px;
+	width: 15vw;
+	height: 6vh;
+	position: relative;
+	margin: 0 auto;
+	top: 140px;
+
+}
+
+#artist {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.25vw;
+	text-align: center;
+	/*background-color: #fbfbfb;*/
+	/*border: 2px solid;*/
+	color: white;
+	border-radius: 5px;
+	width: 15vw;
+	height: 6vh;
+	position: relative;
+	margin: 0 auto;
+	top: 20px;
+
+}
