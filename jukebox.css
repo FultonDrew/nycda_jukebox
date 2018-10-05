@@ -1,5 +1,7 @@
 body {
 	background-color: black;
+	max-width: 1080px;
+	max-height: 720px;
 }
 
 .player {
@@ -63,7 +65,7 @@ body {
 }
 
 #play {
-	border: 2px solid white;
+	/*border: 2px solid white;*/
 	width: 30px;
 	height: 5px;
 	margin: 5px 5px 0 0;
@@ -79,7 +81,7 @@ body {
 }
 
 #pause {
-	border: 2px solid white;
+	/*border: 2px solid white;*/
 	width: 30px;
 	height: 5px;
 	margin: 5px 5px 0 0;
@@ -95,7 +97,7 @@ body {
 
 
 #next {
-	border: 2px solid white;
+	/*border: 2px solid white;*/
 	width: 30px;
 	height: 5px;
 	margin: 5px 5px 0 0;
@@ -110,7 +112,7 @@ body {
 }
 
 #repeat {
-	border: 2px solid white;
+	/*border: 2px solid white;*/
 	width: 30px;
 	height: 5px;
 	margin: 5px 5px 0 0;
@@ -125,7 +127,7 @@ body {
 }
 
 #previous {
-	border: 2px solid white;
+	/*border: 2px solid white;*/
 	width: 30px;
 	height: 5px;
 	margin: 5px 5px 0 0;
